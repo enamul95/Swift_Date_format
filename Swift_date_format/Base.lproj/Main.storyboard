@@ -22,7 +22,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WDk-ad-Ea2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Td4-kc-o73"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WDk-ad-Ea2" secondAttribute="trailing" constant="10" id="ZXw-lZ-jAu"/>
@@ -30,7 +30,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Date formate" id="lMv-VU-eAx"/>
+                    <navigationItem key="navigationItem" title="Date formate" id="lMv-VU-eAx">
+                        <barButtonItem key="leftBarButtonItem" image="ic_arrow_back_light_24dp" id="SHM-RO-Wtm"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="label_date" destination="WDk-ad-Ea2" id="Dd1-oK-nu1"/>
                     </connections>
@@ -58,4 +60,7 @@
             <point key="canvasLocation" x="131.8840579710145" y="82.366071428571431"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_arrow_back_light_24dp" width="22" height="22"/>
+    </resources>
 </document>

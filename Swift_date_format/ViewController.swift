@@ -22,6 +22,12 @@ class ViewController: UIViewController {
           utc_time_to_current_date(myDate: myDate)
         
         //addMinutes()
+        
+        
+          //1x--> 22 x 22 pixels
+        //2x--> 44 x 44 pixels
+         //3x--> 72 x 72 pixels
+      
     }
     
     func addMinutes(){
@@ -93,6 +99,23 @@ class ViewController: UIViewController {
         
         return convertedLocalTime
     }
+    
+    /*
+    func barbutton(){
+        //create a new button
+        let button: UIButton = UIButton(type: UIButton.ButtonType.custom)
+               //set image for button
+        button.setImage(UIImage(named: "fb.png"), for: UIControl.State.Normal)
+               //add function for button
+        button.addTarget(self, action: Selector(("fbButtonPressed")), for: UIControl.Event.touchUpInside)
+               //set frame
+               button.frame = CGRectMake(0, 0, 53, 31)
+
+               let barButton = UIBarButtonItem(customView: button)
+               //assign button to navigationbar
+               self.navigationItem.rightBarButtonItem = barButton
+    }
+    */
     
 }
 
